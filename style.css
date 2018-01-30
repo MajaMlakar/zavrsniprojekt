@@ -1,0 +1,356 @@
+.header {
+	height: 600px;	
+	background-size: cover;
+}
+.indexbg {
+    background: url('img/header_bg.jpg');
+}
+body {
+    background: url('img/darkness.png');
+}
+
+.expressionsbg {
+    background: url('img/oujea.jpg');
+}
+.contactbg {
+    background: url('img/conc.jpg');
+}
+.resumebg {
+    background: url('img/art.jpg');
+}
+
+.header a {
+	font-size: 24pt;
+	color: #fff;
+	margin-top: 50px;
+	margin-left: 50px;
+	display: block;
+	text-transform: uppercase;
+}
+.header p {
+	font-size: 42pt;
+	text-align: center;
+	color: #fff;
+	margin-top: 150px;
+	text-transform: lowercase;
+}
+
+
+.main-menu {
+	width: 100%;
+	background-color: #F1C40F;
+}
+.main-menu li {
+	display: inline-block;
+	height: 100px;
+	transition: 3s;
+}
+.main-menu li a {
+	color: #000;
+	font-size: 18pt;
+	padding-left: 40px;
+	padding-right: 40px;
+	line-height: 100px;
+	display: block;
+}
+.main-menu li:hover {
+	background-color: #EB5757;
+}
+.main-menu li:hover a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.hamburger .glyphicon {
+    display: none;
+    text-align: right;
+    padding-right: 50px;
+    line-height: 100px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+   
+}
+
+@media screen and (max-width:760px) {
+    .main-menu li {
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    .main-menu {
+        padding-left: 0;
+    }
+    .podnaslov {
+        font-size: 12pt!important;
+    }
+}
+
+
+
+.gallery img {
+	width: 100%;	
+}
+.gallery div {
+	padding: 0;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #000;
+}
+.image-container:hover .overlay {
+	opacity: 0.7;
+}
+.image-container:hover img {
+	filter: blur(3px);
+}
+.overlay p {
+	color: #fff;
+	font-size: 18pt;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.overlay a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.section-content{
+  text-align: center; 
+
+}
+#contact{
+    
+    font-family: 'Teko', sans-serif;
+    width: 100%;
+  background: #F1C40F; 
+    color : black;  
+		margin-bottom: 20px;
+}
+.contact-section{
+  padding-top: 40px;
+}
+.contact-section .col-md-6{
+  width: 50%;
+}
+
+.form-line{
+  border-right: 1px solid #B29999;
+}
+
+.form-group{
+  margin-top: 10px;
+}
+label{
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+}
+.form-control{
+  font-size: 1.3em;
+  color: #080808;
+}
+textarea.form-control {
+    height: 135px;
+   /* margin-top: px;*/
+}
+
+.submit{
+  font-size: 1.1em;
+  float: right;
+  width: 150px;
+  background-color: transparent;
+  color: black;
+
+}
+.button {
+    background-color: black; 
+    color: white; 
+    border: none;
+	padding: 7px 5px 7px 5px;
+}
+
+.button:hover {
+	background-color: white; 
+    color: black; 
+    border: none;
+}
+
+.form-control::placeholder {
+		color: "black";
+		
+}
+
+.footer {
+	height: 400px;
+	background-image: url("img/footer_bg.jpg");
+	background-size: cover;
+}
+
+.footer img {
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+.footer ul {
+	margin-top: 100px;
+	float: right;
+}
+
+.footer ul li {
+	display: inline-block;
+}
+
+.footer ul li a {
+	display: block;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #fff;
+	font-size: 18pt;
+	
+}
+.footer ul li a:hover {
+	text-decoration: none;
+}
+.section {
+	margin: 50px 0;
+        color: whitesmoke;
+        font-family: cursive;
+}
+
+.stajl {
+    color: bisque;
+    text-align: center;
+    font-style: oblique; 
+    font-family: serif;
+}
+
+.stajl20 {
+    color: orangered;
+    text-align: center;
+    font-style:  italic; 
+    font-family: serif;
+}
+.stajl2 {
+    color: orangered;
+    text-align: left;
+    font-style:  italic; 
+    font-family: serif;
+}
+.section2 {
+    margin: 70px 0;
+    color: blanchedalmond;
+    font-family: cursive;
+    font-style: inherit;
+}
+
+.self {
+    padding-left: 40px;
+    color: blanchedalmond;
+    font-family: cursive;
+    font-style: inherit;
+}
+
+.section22 {
+    text-align: right;
+    color: bisque;
+    font-style: oblique; 
+    font-family: serif;
+    font-size: 16.5pt;
+}
+
+.trans {
+    padding-left: 120px;
+}
+.row {
+    text-align: center;
+    color: lightgoldenrodyellow;
+    font-family: fantasy;
+}
+
+.square-blocks div {
+    height: 250px;
+}
+
+.square-blocks .light-gray-bg {
+    background-color: #FOFOFO;
+}
+
+.square-blocks .dark-gray-bg {
+    background-color: #E0E0E0;
+}
+
+.square-blocks p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 18pt;
+    text-transform: uppercase;
+}
+
+.section {
+    margin: 100px 0;
+}
+
+.section h1 {
+    font-size: 24pt;
+    text-align: center;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.square-blocks span {
+    font-size: 52pt;
+    
+}
+
+.about-me-image {
+    padding-left: 0;
+}
+
+.about-me-text h1 {
+    text-align: left;
+}
+
+.about-me-text p {
+    font-size: 14pt;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.square-blocks span {
+    font-size: 32pt;
+}
+
+.square-blocks a {
+    text-decoration: none;
+    color: orange;
+}
+
+.square-blocks a:hover {
+    color: red!important;
+}
+
+
+.majo {
+    color: orange;
+    font-size: 15pt;
+    font-family: cursive;
+}
